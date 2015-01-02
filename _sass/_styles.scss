@@ -9,7 +9,7 @@ h1 {
   display: block;
   width: 693px;
   height: 101px;
-  margin: 25px auto;
+  margin: 20px auto 50px auto;
   overflow: hidden;
   white-space: nowrap;
   text-indent: 9999px;
@@ -22,6 +22,12 @@ p {
   }
   &.tagline2 {
     font-size: 16px;
+    text-align: center;
+  }
+}
+
+form {
+  &#mc-embedded-subscribe-form {
     text-align: center;
   }
 }
