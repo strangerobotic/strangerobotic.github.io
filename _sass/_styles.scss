@@ -16,8 +16,8 @@ h1 {
   text-indent: 9999px;
 }
 h2 {
-  font-size: 18px;
-  font-weight: 200;
+  font-size: 22px;
+  font-weight: 100;
 }
 
 div {
@@ -37,12 +37,21 @@ div {
 }
 
 form {
-  .subscribe {
+  &.subscribe {
     display: block;
     width: 300px;
-    margin: 50px auto;
-    h2 {
-      text-align: left;
+    margin: 100px auto;
+    p {
+      font-size: 12px;
+      font-weight: 300;
+    }
+  }
+  input {
+    &[type=submit] {
+      color: #ffffff;
+      background: #e34559;
+      padding: 10px 15px;
+      font-family: 'Helvetica Neue', Helvetica, Arial;
     }
   }
 }
