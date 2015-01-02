@@ -14,6 +14,10 @@ h1 {
   white-space: nowrap;
   text-indent: 9999px;
 }
+h2 {
+  font-size: 18px;
+  font-weight: 200;
+}
 
 div {
   &.tagline {
@@ -32,7 +36,13 @@ div {
 }
 
 form {
-  &#mc-embedded-subscribe-form {
+  .subscribe {
     text-align: center;
+    display: block;
+    width: 300px;
+    margin: 50px auto;
+    h2 {
+      text-align: left;
+    }
   }
 }
