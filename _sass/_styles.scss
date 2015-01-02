@@ -71,3 +71,13 @@ form {
     }
   }
 }
+a:link,
+a:visited {
+  color: #e34559;
+  text-decoration: underline;
+}
+a:focus,
+a:active,
+a:hover{
+  color: #f06274;
+}
