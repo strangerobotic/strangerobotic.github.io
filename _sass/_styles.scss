@@ -55,6 +55,9 @@ form {
       font-size: 14px;
       border: none;
       border-radius: 4px;
+      &:hover {
+        background: #f06274;
+      }
     }
     &[type=text], 
     &[type=email] {
